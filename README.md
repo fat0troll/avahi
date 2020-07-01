@@ -10,7 +10,7 @@ This repository contains sources for [fat0troll/avahi](https://hub.docker.com/re
 
 ## Preparations
 
-Due to licensing issues Avahi example configuration files isn't included in this repository, so you need to grab it manually. You can do this by passing these commands:
+Due to licensing issues Avahi example configuration files isn't included in this repository, so you need to grab it manually. You can do this via these commands:
 
 ```
 $ docker create --name avahi-config fat0troll/avahi
