@@ -1,5 +1,7 @@
 # Avahi in Docker container
 
+[![Build Status](https://github.drone.hodakov.me/api/badges/fat0troll/avahi/status.svg)](https://github.drone.hodakov.me/fat0troll/avahi)
+
 This repository contains sources for [fat0troll/avahi](https://hub.docker.com/repository/docker/fat0troll/avahi) - Docker container.
   
 **Note 1**: This container requires `host` or `macvlan` network type, and will **not** work in `bridge` (default mode) network. See `examples/docker-compose.yml` for details. If you can/want to make it work in `bridge` mode, PRs are welcome (see Note 3).
